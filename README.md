@@ -12,3 +12,7 @@
 И после редактирования:
 
 ![img_1.png](img_1.png)
+
+Так же реализовал запрос к бд, с помощью класса ConnectionForDB
+
+![image](https://github.com/user-attachments/assets/649efd46-9f13-4bc4-b522-0bd3210425cb)
