@@ -1,6 +1,7 @@
 package connectionDb;
 
 import io.qameta.allure.Step;
+import org.example.connectionDb.ConnectForDB;
 
 public class Hooks extends ConnectForDB {
 
