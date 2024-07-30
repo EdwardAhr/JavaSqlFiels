@@ -19,11 +19,11 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String pathSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiels\\CreateWarehouse.sql";
-        String pathSqlFile2 = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiels\\CreateWarehouseEdited.sql";
+        String pathNewSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiels\\CreateWarehouseEdited.sql";
         String SqlFile = new String(Files.readAllBytes(Paths.get(pathSqlFile)));
 
         try{
-            writeFile(pathSqlFile2,prepareSqlQuery(parameters,SqlFile));
+            writeFile(pathNewSqlFile,prepareSqlQuery(parameters,SqlFile));
         }
         catch (IOException e){
             e.printStackTrace();
