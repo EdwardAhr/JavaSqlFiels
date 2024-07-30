@@ -29,8 +29,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        String pathSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiels\\resources\\CreateWarehouse.sql";
-        String pathNewSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiels\\resources\\CreateWarehouseEdited.sql";
+        String pathSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiles\\resources\\CreateWarehouse.sql";
+        String pathNewSqlFile = "C:\\Users\\barkhatov_r\\IdeaProjects\\JavaTestFiles\\resources\\CreateWarehouseEdited.sql";
         String str = prepareSqlQuery(parameters, pathSqlFile);
 
         //Создание нового файла CreateWarehouseEdited.sql на основе изменений из мапы
