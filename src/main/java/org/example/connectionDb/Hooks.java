@@ -1,4 +1,4 @@
-package connectionDb;
+package org.example.connectionDb;
 
 import io.qameta.allure.Step;
 import org.example.connectionDb.ConnectForDB;
